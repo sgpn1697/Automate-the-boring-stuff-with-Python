@@ -1,0 +1,13 @@
+print ('What is your name mate?')
+his_name = input()
+print ('Nice to meet you' + his_name)
+print ('What is your age?')
+his_age = input()
+print ('So are you saying your name is ' + his_name + (' and your age is ') + his_age + '?')
+print ('yes or no')
+answer = input()
+if answer == 'yes':
+    print ('Got you mate')
+if answer == 'no':
+    print ('Why are you lying mate')
+
